@@ -1,11 +1,4 @@
-// I => V and X,
-// 1 => 5 and 10
-
-// X => L and C,
-// 10=> 50and 100,
-
-// C => D and M,
-// 100 => 500 and 1000
+//problem 1 solution
 function test(str) {
 
     const romanvalue = {
@@ -21,15 +14,14 @@ function test(str) {
   
     for (let i = 0; i < str.length; i++) {
       total += romanvalue[str[i]]
-      // console.log(total += romanvalue[str[i]])
     }
     return total
   
   }
-  // console.log(test("LVIII"))
+  console.log(test("LVIII"))
   console.log(test("III"))
-  //50+5+1+1+1
   
+  //problem 2 solution
   function employeeBonus() {
     const employee = [
       {
@@ -72,6 +64,8 @@ function test(str) {
         bonus: 2000
       }
     ]
+
+    
   
   
     
